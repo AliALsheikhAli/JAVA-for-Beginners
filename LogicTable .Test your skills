@@ -1,0 +1,36 @@
+public class Main
+{
+  public static void main (String args[])
+  {
+    boolean p, q;
+      System.out.println ("P\tQ\tPANDQ\tPORQ\tPXORQ\tNOTP");
+      p = true;
+      q = true;
+      System.out.print (p + "\t" + q + "\t");
+      System.out.print ((p & q) + "\t" + (p | q) + "\t");
+      System.out.println ((p ^ q) + "\t" + (!p));
+      p = true;
+      q = false;
+      System.out.print (p + "\t" + q + "\t");
+      System.out.print ((p & q) + "\t" + (p | q) + "\t");
+      System.out.println ((p ^ q) + "\t" + (!p));
+      p = false;
+      q = true;
+      System.out.print (p + "\t" + q + "\t");
+      System.out.print ((p & q) + "\t" + (p | q) + "\t");
+      System.out.println ((p ^ q) + "\t" + (!p));
+      p = false;
+      q = false;
+      System.out.print (p + "\t" + q + "\t");
+      System.out.print ((p & q) + "\t" + (p | q) + "\t");
+      System.out.println ((p ^ q) + "\t" + (!p));
+  }
+}
+/*
+Predicted Output:
+P Q PANDQ PORQ PXORQ NOTP
+true true true true false fals
+true false false true true fals
+false true false true true true
+false false false false false true
+*/
