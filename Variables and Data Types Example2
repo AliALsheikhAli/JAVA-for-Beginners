@@ -11,6 +11,7 @@ public class Main
       System.out.println (var2);
   }
 }
-
-//Predicted Output:
-//var2 contains var1 / 2: 512
+/*
+Predicted Output:
+var2 contains var1 / 2: 512
+*/
