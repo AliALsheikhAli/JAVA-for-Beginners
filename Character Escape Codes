@@ -1,0 +1,15 @@
+public class Main
+{
+  public static void main (String args[])
+  {
+    System.out.println ("First line\nSecond line");
+    System.out.println ("A\tB\tC");
+    System.out.println ("D\tE\tF");
+  }
+}
+
+/*Predicted Output:
+First Line
+Second Line
+A B C
+D E F*/
