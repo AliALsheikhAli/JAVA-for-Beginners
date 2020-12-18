@@ -1,0 +1,17 @@
+public class Main
+{
+  public static void main (String args[])
+  {
+    double eu;
+      System.out.println ("Euro conversion table:");
+      System.out.println ();
+    for (eu = 1; eu < 101; eu++)
+        System.out.println (eu + " Euro is euqivalent to Lm" + (eu * 0.43));
+  }
+}
+
+/*
+98.0 Euro is euqivalent to Lm42.14                                                                                                      
+99.0 Euro is euqivalent to Lm42.57                                                                                                      
+100.0 Euro is euqivalent to Lm43.0                                                                                                      
+*/
